@@ -7,7 +7,7 @@
 
 const repre =   document.getElementById('repre');
 const repreHandler = () =>{
-    document.getElementById('representativeImgSet').setAttribute('style', "display:grid");
+    document.getElementById('representativeImgSet').setAttribute('style', "display:block");
     document.getElementById('livingRoomImgSet').setAttribute('style', "display:none");
     document.getElementById('kitchenImgSet').setAttribute('style', "display:none");
     document.getElementById('seminarLoofImgSet').setAttribute('style', "display:none");
@@ -28,7 +28,7 @@ repre.addEventListener("click", repreHandler)
 const living =   document.getElementById('living');
 const livingHandler = () =>{
     document.getElementById('representativeImgSet').setAttribute('style', "display:none");
-    document.getElementById('livingRoomImgSet').setAttribute('style', "display:grid");
+    document.getElementById('livingRoomImgSet').setAttribute('style', "display:block");
     document.getElementById('kitchenImgSet').setAttribute('style', "display:none");
     document.getElementById('seminarLoofImgSet').setAttribute('style', "display:none");
 
@@ -48,7 +48,7 @@ const kitchen =   document.getElementById('kitchen');
 const kitchenHandler = () =>{
     document.getElementById('representativeImgSet').setAttribute('style', "display:none");
     document.getElementById('livingRoomImgSet').setAttribute('style', "display:none");
-    document.getElementById('kitchenImgSet').setAttribute('style', "display:grid");
+    document.getElementById('kitchenImgSet').setAttribute('style', "display:block");
     document.getElementById('seminarLoofImgSet').setAttribute('style', "display:none");
 
     document.getElementById('carousel-repre').setAttribute('style', "display:none");
@@ -69,7 +69,7 @@ const semiloofHandler = () =>{
     document.getElementById('representativeImgSet').setAttribute('style', "display:none");
     document.getElementById('livingRoomImgSet').setAttribute('style', "display:none");
     document.getElementById('kitchenImgSet').setAttribute('style', "display:none");
-    document.getElementById('seminarLoofImgSet').setAttribute('style', "display:grid");
+    document.getElementById('seminarLoofImgSet').setAttribute('style', "display:block");
 
     document.getElementById('carousel-repre').setAttribute('style', "display:none");
     document.getElementById('carousel-living').setAttribute('style', "display:none");
